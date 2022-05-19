@@ -155,21 +155,14 @@ def dameSilabas(candidata):
 #y en caso de que esta se encuentre dentro de este la bandera enLemario mantiene el valor True; finalmente si ambas banderas son verdaderas la función retorna True.
 def esValida(candidata, silabasEnPantalla, lemario):
     silabas=dameSilabas(candidata)
-    enPantalla=True
-    enLemario=True
+    enPantalla=False
+    enLemario=False
     for elemento in silabas:
         if elemento in silabasEnPantalla:
             enPantalla=True
-        else:
-            enPantalla=False
     if candidata in lemario:
         enLemario=True
-    else:
-        enLemario=False
-    if enPantalla==enLemario:
-        return True
-    else:
-        return False
+    return enPantalla and enLemario
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 #Esta función toma la palabra candidata, una variable puntaje que vale 0, una variable llamada vocal que contiene a las vocales y otra llamada consonanteDificil que contiene a las consonantes que valen 5 puntos.
 #Analiza cada elemento de candidata, si el elemento esta en vocal, puntaje suma 1 punto, si esta en consonante dificil suma 5, y si no esta en ninguno se da por hecho que es ua consonante normal por lo que suma 2. Finalmente retornna el puntaje.

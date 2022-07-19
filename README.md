@@ -1,5 +1,5 @@
 # Silabas - Primer Proyecto en Python.
-##Introducción:
+## Introducción:
 -Sílabas es un jego muy simple programado en python haciendo uso de la librería PyGames, fue parte de un trabajo practico evaluativo
 en la materia "Introducción a la Programación" de la carrera "Licenciatura en Sistemas".
 -El mismo consta de formar palabras existentes en el diccionario

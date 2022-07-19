@@ -6,4 +6,4 @@ en la materia "Introducción a la Programación" de la carrera "Licenciatura en 
 con las sílabas que van cayendo por la pantalla, a medida que acertamos estás van incrementando un puntaje y aumento la velocidad de caída. Tenemos que tener
 cuidado con equivocarse y poner palabras inexistentes ya que a medida que vayamos acumulando llegará un punto en donde perderemos el juego.
 - Sílabas fue mi primero proyecto en programación por lo que le tengo mucho cariño. Te invito a probarlo!
-
+![image](https://user-images.githubusercontent.com/91503876/179866463-95382798-194c-41ad-94a5-c82d54d22103.png)

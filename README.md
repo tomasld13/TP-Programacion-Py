@@ -1,6 +1,6 @@
 # Guerra de palabras - Primer Proyecto en Python.
 ## Introducción:
-- "Guerra de palabras" es un jego muy simple programado en Python haciendo uso de la librería PyGames, fue parte de un trabajo practico evaluativo
+- "Guerra de palabras" es un juego en 2D muy simple programado en Python haciendo uso de la librería PyGames, fue parte de un trabajo practico evaluativo
 en la materia "Introducción a la Programación" de la carrera "Licenciatura en Sistemas".
 - El mismo consta de formar palabras existentes en el diccionario
 con las sílabas que van cayendo por la pantalla, a medida que acertamos estás van incrementando un puntaje y aumento la velocidad de caída. Tenemos que tener

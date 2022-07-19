@@ -40,7 +40,7 @@ def main():
         tiempo= TIEMPO_MAX
         segundos = tiempo
         fps = FPS_inicial
-        puntos = 200
+        puntos = 0
         candidata = ""
         silabasEnPantalla = []
         posiciones = []
